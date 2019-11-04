@@ -29,5 +29,10 @@ Patient data is set up under the idea that multiple parties can access and updat
 
 For example, to pull general demographic data on a patient, the bash script has been created that will download the patient data.
         
-An R script has also been created that will download the data.
+An R script has also been created that [will download the data](https://github.com/disulfidebond/data_analysis/blob/version1_changes/example_download.R).
+
+There are some things to keep in mind:
+
+* Depending on your installation or if you're using a Docker container for R, other options may work
+* The default text formatting for this particular download seems to be XML, but JSON or other formats may also be used
 
